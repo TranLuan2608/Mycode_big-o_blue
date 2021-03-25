@@ -1,6 +1,25 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
+    /**
+     * Little Vasya has received a young builder’s kit. The kit consists of several wooden bars,
+     * the lengths of all of them are known. The bars can be put one on the top of the other if their lengths are the same.
+     *
+     * Vasya wants to construct the minimal number of towers from the bars. Help Vasya to use the
+     * bars in the best way possible.
+     *
+     * Ex1
+     *  input
+     *  3
+     *  1 2 3
+     *  output
+     *  1 3
+     * Ex2
+     *  input
+     *  4
+     *  6 5 6 7
+     *  output
+     *  2 3
+     *  */
 public class L03P06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

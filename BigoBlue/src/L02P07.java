@@ -1,6 +1,23 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+    /**
+     * Hands that shed innocent blood! There are n guilty people in a line, the i-th of them holds a claw with length L_i
+     * The bell rings and every person kills some of people in front of him. All people kill others at the same time.
+     * Namely, the i-th person kills the jj-th person if and only if j < i and j>=i - L_i You are given lengths of the
+     * claws. You need to find the total number of alive people after the bell rings.
+     * Ex1
+     *  input
+     *  4
+     *  0 1 0 10
+     *  output
+     *  1
+     * Ex2
+     *  input
+     *  10
+     *  1 1 3 0 0 0 2 1 0 3
+     *  output
+     *  3
+     *  */
 public class L02P07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

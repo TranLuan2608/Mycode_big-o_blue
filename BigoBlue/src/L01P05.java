@@ -1,6 +1,26 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+    /**You are given two arrays A and B consisting of integers,
+     *  sorted in non-decreasing order. Check whether it is possible to choose
+     *  KK numbers in array AA and choose MM numbers in array BB so that any number
+     *  chosen in the first array is strictly less than any number chosen in the second array
+     *  Ex1
+     *      input
+     *      3 3
+     *      2 1
+     *      1 2 3
+     *     3 4 5
+     *      output
+     *      Yes
+     *  Ex2
+     *      input
+     *      3 3
+     *      3 3
+     *      1 2 3
+     *      3 4 5
+     *      output
+     *      NO
+     *      */
 public class L01P05 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

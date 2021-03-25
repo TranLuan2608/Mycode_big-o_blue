@@ -1,6 +1,34 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+   /**
+    * George decided to prepare a Codesecrof round, so he has prepared M problems for the round.
+    * Let's number the problems with integers L through M. George estimates the i-th problem's
+    * complexity by integer Bi
+    * To make the round good, he needs to put at least NN problems there. Besides,
+    * he needs to have at least one problem with complexity exactly A1 at least one with complexity exactly A2, ...,
+    * and at least one with complexity exactly A_n. Of course, the round can also have problems with other complexities.
+    * George has a poor imagination. It's easier for him to make some already prepared problem simpler than
+    * to come up with a new one and prepare it. George is magnificent at simplifying problems. He can
+    * simplify any already prepared problem with complexity C to any positive integer complexity D(C>=D)
+    * , by changing limits on the input data.
+    * However, nothing is so simple. George understood that even if he simplifies some problems, he can
+    * run out of problems for a good round. That's why he decided to find out the minimum number of
+    * problems he needs to come up with in addition to the M he's prepared in order to make a good
+    * round. Note that George can come up with a new problem of any complexity.
+    * Ex1
+    *    input
+    *    3 5
+    *    1 2 3
+    *    1 2 2 3 3
+    *    output
+    *    0
+    * Ex2
+    *    input
+    *    3 5
+    *    1 2 3
+    *    1 1 1 1 1
+    *    output
+    *    2*/
 public class L02P03 {
     static class Vest {
         int u, v;
