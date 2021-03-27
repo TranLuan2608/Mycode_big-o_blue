@@ -1,6 +1,20 @@
 import java.util.Scanner;
 import java.util.Stack;
-
+    /**
+     * Transform the algebraic expression with brackets into RPN form (Reverse Polish Notation)
+     * . Two-argument operators: +, -, *, /, ^ (priority from the lowest to the highest),
+     * brackets (). Operands: only letters: a,b,...,z. Assume that there is only one RPN form
+     * (no expressions like a*b*c).
+     * Ex1
+     *  input
+     *  3
+     *  (a+(b*c))
+     *  ((a+b)*(z+x))
+     *  ((a+t)*((b+(a+c))^(c+d)))
+     *  output
+     *  abc*+
+     *  ab+zx+*
+     *  at+bac++cd+^**/
 public class L04P01 {
    public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
