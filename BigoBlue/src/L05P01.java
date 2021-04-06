@@ -2,7 +2,29 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
+    /**
+     * Consider an undirected graph consisting of N nodes where each node is labeled from 1 to
+     * N and the edge between any two nodes is always of length 6. We define node SS to be the
+     * starting position for a BFS.
+     * Given Q queries in the form of a graph and some starting node, S, perform each query by
+     * calculating the shortest distance from starting node S to all the other nodes in the graph.
+     * Then print a single line of N - 1 space-separated integers listing node S is shortest
+     * distance to each of the N - 1 other nodes (ordered sequentially by node number); if S is
+     * disconnected from a node, print −1 as the distance to that node.
+     * Ex1
+     *  input
+     *  2
+     *  4 2
+     *  1 2
+     *  1 3
+     *  1
+     *  3 1
+     *  2 3
+     *  2
+     *  output
+     *  6 6 -1
+     *  -1 6
+     * */
 public class L05P01 {
     static final int MAX = 1000 + 5;
     static int V, E;

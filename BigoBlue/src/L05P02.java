@@ -7,7 +7,49 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-
+    /**
+     * There are many algorithms to generate maze (Maze Generation Algorithm). After generating
+     * the maze we’ve to validate whether it’s a valid maze or not. A valid maze has exactly
+     * one entry point and exactly one exit point (exactly 22 openings in the edges) and there must
+     * be atleast one path from the entry point to exit point.
+     * Given a maze, just find whether the maze is "validvalid" or "invalidinvalid".
+     * Ex
+     *  input
+     *  6
+     *  4 4
+     *  ####
+     *  #...
+     *  #.##
+     *  #.##
+     *  5 5
+     *  #.###
+     *  #..##
+     *  ##..#
+     *  #.#.#
+     *  ###.#
+     *  1 1
+     *  .
+     *  5 1
+     *  #
+     *  #
+     *  .
+     *  .
+     *  #
+     *  2 2
+     *  #.
+     *  .#
+     *  3 4
+     *  #..#
+     *  #.##
+     *  #.##
+     *  output
+     *  valid
+     *  valid
+     *  invalid
+     *  valid
+     *  invalid
+     *  invalid
+     *  */
 public class L05P02 {
     static final int MAX = 21;
     static int dr[] = {0, 0, 1, -1};
